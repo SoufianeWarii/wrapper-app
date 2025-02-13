@@ -1,0 +1,12 @@
+{
+    "name": "wrapper-app",
+    "version": "1.0.0",
+    "description": "Wrapper application with header and footer",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2" 
+    }
+  }

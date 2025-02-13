@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wrapper Application</title>
+    <style>
+        body {
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
+
+        header {
+          background-color: #f0f0f0;
+          padding: 10px;
+          text-align: left;
+        }
+
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          margin-top: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            Wrapper Application | <a href="#">Link 1</a> | <a href="#">Link 2</a>
+        </nav>
+    </header>
+
+    <div id="iframe-container">
+        <iframe src="http://local.swarii.domain:3003"
+        width="100%"
+        height="530"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen></iframe>  </div>
+
+    <footer>
+        <p>&copy; 2025 expression.ai</p>
+    </footer>
+</body>
+</html>
